@@ -25,13 +25,18 @@ Author E-mail: naimlasker@gmail.com
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   line-height: 26px;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #777777;
-  background: url(../img/body-bg.png) no-repeat center; }
+  background: url(../img/body-bg.png) no-repeat center; 
+}
 
 h1,
 h2,
@@ -376,7 +381,8 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.png) no-repeat top center;
+  /* background: url(../img/banner/home-banner.png) no-repeat top center; */
+  background: url(../img/banner/background.png) no-repeat top center;
   background-position: center;
   background-size: cover; }
   .home_banner_area .banner_inner {
@@ -1244,7 +1250,7 @@ button:focus {
   transform: translateX(-50%) translateY(-50%) !important;
   margin: 0px;
   max-width: 500px;
-  width: 100%; }
+  width: 100%; }  
   .modal-message .modal-dialog .modal-content .modal-header {
     text-align: center;
     display: block;
